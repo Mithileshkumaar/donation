@@ -3,12 +3,18 @@ import Home from "../views/Home.vue";
 import Donation from "../views/donation.vue";
 import Donee from "../views/donee.vue";
 import landing from "../views/landing.vue"
+import contact from "../views/contact.vue"
 
 const routes = [
   {
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    name: "contact",
+    path: "/contact",
+    component: contact
   },
   {
     path: "/donation",

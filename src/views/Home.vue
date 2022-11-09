@@ -1,7 +1,8 @@
 <template>
   <div id="home">
     <div class="container">
-      <nav class="navbar navbar-light">
+      <!-- <nav class="navbar navbar-light">
+
         <div class="container-fluid">
           <ul class="nav justify-content-end container">
             <li class="nav-item">
@@ -16,7 +17,8 @@
             </li>
           </ul>
         </div>
-      </nav>
+      </nav> -->
+      <na />
       <div class="container">
         <div class="row">
           <div class="col-sm-5 col-md-6"></div>
@@ -97,6 +99,7 @@
 
 <script>
 import foot from "../components/footer.vue";
+import na from "../components/nav.vue";
 // @ is an alias to /src
 // import HelloWorld from "@/components/HelloWorld.vue";
 
@@ -105,6 +108,7 @@ export default {
   components: {
     // HelloWorld,
     foot,
+    na,
   },
 };
 </script>
