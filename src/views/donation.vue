@@ -1,76 +1,78 @@
 <template>
   <div class="donation" style="padding-top: 80px">
-    <div class="card">
-      <div class="card-body">
-        <h4>DONATION DETAILS</h4>
-        <form>
-          <div class="mb-3">
-            <label for="" class="form-label"></label>
-            <input
-              type="text"
-              class="form-control"
-              id="firstname"
-              v-model="name"
-              aria-describedby="emailHelp"
-              placeholder="Name of the organisation"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="" class="form-label"></label>
-            <input
-              type="text"
-              class="form-control"
-              id=""
-              v-model="item"
-              placeholder="Items to Donate"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="" class="form-label"></label>
-            <input
-              type="number"
-              class="form-control"
-              id="lastname"
-              v-model="quantity"
-              placeholder="Quantity(no of people)"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="" class="form-label"></label>
-            <input
-              type="number"
-              class="form-control"
-              id="lastname"
-              v-model="phn"
-              placeholder="Phone number"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="" class="form-label"></label>
-            <input
-              type="text"
-              class="form-control"
-              id="lastname"
-              v-model="location"
-              placeholder="Location"
-            />
-          </div>
-
-          <button type="submit" class="btn btn-danger" @click="info">
-            Submit
-          </button>
-          <router-link to="/donee"> </router-link>
-
-          <div v-if="err.length" class="pt-2 fst-italic">
-            <div v-for="e in err" v-bind:key="e.phn" style="color: red">
-              <h6>{{ e }}</h6>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <h4>DONATION DETAILS</h4>
+          <form>
+            <div class="mb-3">
+              <label for="" class="form-label"></label>
+              <input
+                type="text"
+                class="form-control"
+                id="firstname"
+                v-model="name"
+                aria-describedby="emailHelp"
+                placeholder="Name of the organisation"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label"></label>
+              <input
+                type="text"
+                class="form-control"
+                id=""
+                v-model="item"
+                placeholder="Items to Donate"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label"></label>
+              <input
+                type="number"
+                class="form-control"
+                id="lastname"
+                v-model="quantity"
+                placeholder="Quantity(no of people)"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label"></label>
+              <input
+                type="number"
+                class="form-control"
+                id="lastname"
+                v-model="phn"
+                placeholder="Phone number"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label"></label>
+              <input
+                type="text"
+                class="form-control"
+                id="lastname"
+                v-model="location"
+                placeholder="Location"
+              />
             </div>
 
-            <!-- <ul>
+            <button type="submit" class="btn btn-danger" @click="info">
+              Submit
+            </button>
+            <router-link to="/donee"> </router-link>
+
+            <div v-if="err.length" class="pt-2 fst-italic">
+              <div v-for="e in err" v-bind:key="e.phn" style="color: red">
+                <h6>{{ e }}</h6>
+              </div>
+
+              <!-- <ul>
             
           </ul> -->
-          </div>
-        </form>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>
@@ -143,12 +145,16 @@ export default {
 <style scoped>
 .donation {
   background-image: url(../assets/2.jpg);
-  background-size: 100%;
-  height: 100vh;
+  background-size: 100% 100%;
+  height: 100rem;
   background-repeat: no-repeat;
 }
 .card {
   margin: auto;
-  width: 500px;
+  max-width: 350px;
+  margin-block: 50px;
+}
+.d {
+  /* margin: 500px; */
 }
 </style>
