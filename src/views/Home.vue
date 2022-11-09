@@ -6,11 +6,13 @@
           <ul class="nav justify-content-end container">
             <li class="nav-item">
               <router-link to="/about"
-                ><a class="nav-link" href="#">About us</a></router-link
+                ><a class="nav-link" href="#" style="color: white"
+                  >About us</a
+                ></router-link
               >
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link" href="#">Contact us</a>
+              <a class="nav-link" href="#" style="color: white">Contact us</a>
             </li>
           </ul>
         </div>
@@ -25,10 +27,10 @@
           >
             <h1>FEED THE ORPHANS</h1>
             <h4>We serve daily meals to people in need across India</h4>
-
+            <br />
             <div class="container">
               <div class="row justify-content-start">
-                <div class="col-4">
+                <div class="col-4 mx-4">
                   <router-link to="/donation"
                     ><button type="button" class="btn btn-danger btn">
                       DONATE FOOD
@@ -54,8 +56,8 @@
     </div>
   </div>
   <h4 style="color: black" class="fst-italic container">
-    Feeding India by Zomato is a not for profit organization, designing
-    interventions to reduce hunger among underserved communities in India.
+    WeDonate is a not for profit organization, designing interventions to reduce
+    hunger among underserved communities in India.
   </h4>
 
   <div class="container px-5 pt-5 fst-italic">
@@ -73,6 +75,12 @@
           malnutrition, we are working towards bringing large-scale systemic
           transformation in the nutrition landscape of India.
         </h4>
+
+        <router-link to="/about"
+          ><a class="nav-link" style="color: red" href="#">
+            Know More..</a
+          ></router-link
+        >
       </div>
       <div class="col-6">
         <img
@@ -84,9 +92,11 @@
       </div>
     </div>
   </div>
+  <foot />
 </template>
 
 <script>
+import foot from "../components/footer.vue";
 // @ is an alias to /src
 // import HelloWorld from "@/components/HelloWorld.vue";
 
@@ -94,6 +104,7 @@ export default {
   name: "Home",
   components: {
     // HelloWorld,
+    foot,
   },
 };
 </script>
@@ -119,15 +130,8 @@ h4 {
   background-repeat: no-repeat;
 }
 .nav-link {
-  color: white;
 }
 .nav-item {
   font-size: 20px;
-}
-.container-sm {
-  font-style: italic;
-  letter-spacing: 2px;
-  padding: 100px;
-  padding-top: 20px;
 }
 </style>

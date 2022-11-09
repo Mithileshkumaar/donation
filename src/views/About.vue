@@ -1,8 +1,6 @@
 <template>
   <div class="about">
-    <div class="">
-      <h1 style="color: white; padding-top: 300px" class="">OUR MOTO</h1>
-    </div>
+    <div class="container">fgff</div>
   </div>
 </template>
 
