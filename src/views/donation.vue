@@ -146,7 +146,7 @@ export default {
 .donation {
   background-image: url(../assets/2.jpg);
   background-size: 100% 100%;
-  height: 100rem;
+  height: 50rem;
   background-repeat: no-repeat;
 }
 .card {

@@ -39,28 +39,22 @@
           </div>
         </div>
         <div class="team pt-4">
-          <h2>meet the team</h2>
-          <div class="container">
+          <h2>Meet The Team</h2>
+          <div class="container pt-2 col">
             <div class="row">
               <div class="col-6 col-sm-4">
                 <div class="card shadow-lg" style="width: 18rem">
                   <img src="../assets/mithi.jpg" class="card-img-top" alt="" />
                   <div class="card-body">
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
+                    <h5 class="card-text">Head</h5>
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-sm-4">
+              <div class="col-5 col-sm-4">
                 <div class="card shadow-lg" style="width: 18rem">
                   <img src="../assets/mano.jpg" class="card-img-top" alt="" />
                   <div class="card-body">
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
+                    <h5 class="card-text">Tech Team Lead</h5>
                   </div>
                 </div>
               </div>
@@ -68,10 +62,7 @@
                 <div class="card shadow-lg" style="width: 18rem">
                   <img src="../assets/nath.jpg" class="card-img-top" alt="" />
                   <div class="card-body">
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
+                    <h5 class="card-text">Team Lead (promotion )</h5>
                   </div>
                 </div>
               </div>
@@ -84,10 +75,7 @@
                 <div class="card shadow-lg" style="width: 18rem">
                   <img src="../assets/priyan.jpg" class="card-img-top" alt="" />
                   <div class="card-body">
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
+                    <h5 class="card-text">lead (marketing)</h5>
                   </div>
                 </div>
               </div>
@@ -96,10 +84,7 @@
                 <div class="card shadow-lg" style="width: 18rem">
                   <img src="../assets/keshav.jpg" class="card-img-top" alt="" />
                   <div class="card-body">
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
+                    <h5 class="card-text">Treasure</h5>
                   </div>
                 </div>
               </div>
@@ -108,10 +93,7 @@
                 <div class="card shadow-lg" style="width: 18rem">
                   <img src="../assets/1.jpg" class="card-img-top" alt="" />
                   <div class="card-body">
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
+                    <h5 class="card-text">Team lead</h5>
                   </div>
                 </div>
               </div>
