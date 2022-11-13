@@ -9,7 +9,7 @@
       <div class="container px-5 fst-italic" style="padding-top: 100px">
         <div class="row justify-content-start">
           <div class="col-6">
-            <h3>OUR MOTO</h3>
+            <h3>Our Vision</h3>
             <h4 style="color: black" class="text-muted">
               Feeding India is a non-profit organization dedicated to eradicate
               hunger and improve malnutrition outcomes in India.

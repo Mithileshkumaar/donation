@@ -1,5 +1,7 @@
 <template>
-  <div class="donee" style="padding-top: 100px">
+  <div class="donee">
+    <na />
+    <div class="doneinfo" style="padding-top: 100px"></div>
     <h1>Donation Information</h1>
     <div class="row">
       <card
@@ -42,10 +44,12 @@ import { collection, getDocs } from "firebase/firestore";
 // const db = getFirestore();
 // import { getFirestore } from "firebase/firestore";
 import card from "../components/card.vue";
+import na from "../components/nav.vue";
 export default {
   name: "Home",
   components: {
     card: card,
+    na,
   },
   data() {
     return {

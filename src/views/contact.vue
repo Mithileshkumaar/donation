@@ -1,6 +1,8 @@
 <template>
-  <div class="contact" style="padding-top: 300px">
-    <div class="container-xxl">
+  <div class="contact">
+    <na />
+
+    <div class="container-xxl" style="padding-top: 200px">
       <div class="container">
         <div class="col-6">
           <h2 style="color: white" class="fst-bold fs-3 fw-bold">
@@ -73,10 +75,12 @@
 
 <script>
 import foot from "../components/footer.vue";
+import na from "../components/nav.vue";
 export default {
   name: "",
   components: {
     foot,
+    na,
   },
 };
 </script>

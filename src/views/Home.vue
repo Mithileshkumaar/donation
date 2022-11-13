@@ -110,6 +110,11 @@ export default {
     foot,
     na,
   },
+  method: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
+  },
 };
 </script>
 <style scoped>
@@ -139,3 +144,4 @@ h4 {
   font-size: 20px;
 }
 </style>
+

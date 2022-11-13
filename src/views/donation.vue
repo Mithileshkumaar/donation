@@ -1,5 +1,6 @@
 <template>
-  <div class="donation" style="padding-top: 80px">
+  <div class="donation">
+    <na />
     <div class="container">
       <div class="card">
         <div class="card-body">
@@ -83,11 +84,12 @@ import "firebase/firestore";
 import router from "../router";
 import { db } from "../firebase";
 import { collection, addDoc } from "firebase/firestore";
+import na from "../components/nav.vue";
 // import e from "express";
 
 export default {
   name: "Home",
-  components: {},
+  components: { na },
   data() {
     return {
       name: "",

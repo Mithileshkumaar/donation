@@ -2,9 +2,10 @@
   <nav class="navbar navbar-light">
     <div class="container-fluid">
       <a class="navbar-brand"
-        ><router-link to="/" class="nav-link"
-          ><h3 style="color: white">WeDonate</h3></router-link
-        ></a
+        ><router-link to="/" class="nav-link">
+          <img src="../assets/logo.jpg" alt="" style="width: 170px" />
+          <!-- <h3 style="color: white">WeDonate</h3>` -->
+        </router-link></a
       >
 
       <form class="d-flex">
